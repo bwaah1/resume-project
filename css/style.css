@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
 body {
     background-color: #e5e5e5;
     padding: 40px;
-    
 }
 
 .main {
     display: flex;
     flex-direction: row-reverse;
     background-color: #ffffff;
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -72,4 +82,57 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #595959;
+}
+
+.right-side__experience {
+    margin-top: 50px;
+}
+
+.experience__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.experience__item {
+    margin-top: 14px;
+}
+
+.experience__item-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+
+.experience__item-company {
+    color: #6d9bf5
+}
+
+.experience__item-date {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.experience__item-list {
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.right-side__education {
+    margin-top: 42px;
+}
+
+.education__title {
+    
 }
