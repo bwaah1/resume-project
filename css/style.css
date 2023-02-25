@@ -120,6 +120,10 @@ body {
     color: #a8a8a8;
 }
 
+.separator {
+    color: #000000;
+}
+
 .experience__item-list {
     margin-top: 8px;
     font-family: "Montserrat", sans-serif;
@@ -134,5 +138,36 @@ body {
 }
 
 .education__title {
-    
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000000;
+}
+
+.education__place {
+    margin-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6d9bf5;
+}
+
+.education__specialty {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #000000;
+}
+
+.education__date {
+    margin-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #a8a8a8;
 }
