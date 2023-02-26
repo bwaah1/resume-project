@@ -171,3 +171,82 @@ body {
     line-height: 15px;
     color: #a8a8a8;
 }
+
+ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+ul li {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+.left-side {
+    background-color: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 740px;
+}
+
+.left-side__contacts {
+    margin: 50px 0 3px 40px;
+}
+
+.contacts__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #161d2a;
+}
+
+.contacts__connect {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+.contacts__tel-link {
+    margin-left: 5px;
+    margin-top: 8px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161d2a;
+}
+
+.contacts__mailto-link {
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.left-side__skills {
+    margin: 44px 0 0 40px;
+}
+
+.skills__title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #161d2a;
+}
+
+.skills-list {
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161d2a;
+}
