@@ -14,6 +14,7 @@ img {
 body {
     background-color: #e5e5e5;
     padding: 40px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .main {
@@ -31,7 +32,6 @@ body {
 }
 
 .about__career {
-    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -39,7 +39,6 @@ body {
 }
 
 .about__title {
-    font-family: Montserrat, sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
@@ -47,7 +46,6 @@ body {
 }
 
 .about__description {
-    font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -59,7 +57,6 @@ body {
 }
 
 .projects__title {
-    font-family: Montserrat, sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 27px;
